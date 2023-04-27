@@ -41,7 +41,7 @@ const winnerApplicants = {
     },
 }
  function getWinner(winnerApplicants,todaysWinner){
-    let randomNumb = getRandomNumberInRange(1, Object.keys(winnerApplicants).length);
+    let randomNumb = getRandomNumberInRange(1, Object.keys(winnerApplicants).length+1);
     console.log(randomNumb);
     // winnerApplicants[randomNumb].todaysWinner = todaysWinner;
     console.log(winnerApplicants[randomNumb]);

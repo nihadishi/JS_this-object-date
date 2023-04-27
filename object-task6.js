@@ -5,3 +5,18 @@ const people = [
     { id: 3, name: "Angelina" },
     { id: 4, name: "Vitaly" },
 ];
+let newArr =[];
+let chng;
+for (let index = 0; index < people.length; index++){
+    chng = ordersArr[index];
+    newArr[Object.values(people[index])['id']] = people[chng];
+    // console.log();
+}
+// let chng;
+// for (let index = 0; index < people.length; index++) {
+//      chng = ordersArr[index];
+//     newArr[index] = people[chng];
+//     console.log(chng);
+    
+// }
+console.log(newArr);
