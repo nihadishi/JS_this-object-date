@@ -12,13 +12,13 @@
 // 	},
 // };
 
-// const developer = {
-// 	name: 'Isa',
-// 	age: 27,
-// 	isaSurname: {
-// 		surname: 'Afandiyev',
-// 	},
-// };
+const developer = {
+	name: 'Isa',
+	age: 27,
+	isaSurname: {
+		surname: 'Afandiyev',
+	},
+};
 // console.log(developer.isaSurname.surname);
 
 // console.log(developer['isaSurname']['surname']);
