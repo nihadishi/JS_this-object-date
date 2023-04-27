@@ -145,3 +145,4 @@ console.log(b);
 // bind();
 // getFullName.call(user, 20);
 // getFullName.apply([20, 0, 3]);
+
